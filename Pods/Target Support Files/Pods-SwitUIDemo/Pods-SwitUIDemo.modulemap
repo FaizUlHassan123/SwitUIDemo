@@ -1,0 +1,6 @@
+framework module Pods_SwitUIDemo {
+  umbrella header "Pods-SwitUIDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
