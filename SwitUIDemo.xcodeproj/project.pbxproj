@@ -106,6 +106,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		220536BE289179D60078587C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				223BCBAE288E878A00F4F8F8 /* CollectionView */,
+				22A8F04D288ECCE4005A7790 /* Json Parsing */,
+				22A8F056288EEE8F005A7790 /* TabbedViewSwiftUI */,
+				22F208412890297900D9DBDF /* TopBar */,
+				22F20844289033EB00D9DBDF /* SearchBar */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		2226B53D288AF50900486D33 = {
 			isa = PBXGroup;
 			children = (
@@ -128,13 +140,9 @@
 			isa = PBXGroup;
 			children = (
 				2263F914288FF4E200837231 /* DummyData */,
-				22F20844289033EB00D9DBDF /* SearchBar */,
-				22F208412890297900D9DBDF /* TopBar */,
-				2263F91A288FF76400837231 /* Info.plist */,
+				220536BE289179D60078587C /* Views */,
 				2263F917288FF6B500837231 /* Assets */,
-				22A8F056288EEE8F005A7790 /* TabbedViewSwiftUI */,
-				22A8F04D288ECCE4005A7790 /* Json Parsing */,
-				223BCBAE288E878A00F4F8F8 /* CollectionView */,
+				2263F91A288FF76400837231 /* Info.plist */,
 				2226B549288AF50900486D33 /* SwitUIDemoApp.swift */,
 				2226B54B288AF50900486D33 /* Text.swift */,
 				2226B54F288AF50D00486D33 /* Preview Content */,
