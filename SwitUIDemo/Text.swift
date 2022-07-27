@@ -11,38 +11,27 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         
-        //        NavigationView {
-        //            VStack {
-        //                NavigationLink(destination: SwiftUICollectionView()) {
-        //                    Text("Show Detail View")
-        //                }
-        //                DataList()
-        //                .navigationTitle("Navigation")
-        //            }
-        //        }
-        
         NavigationView{
             DataList()
                 .navigationTitle("Navigation")
+            
         }
-        //        .navigationTitle("Navigation")
         .foregroundColor(Color.green)
     }
 }
 
 struct Data  {
     let id = UUID()
-    let _title: String
+    let _title: DatType
 }
 
 struct DataList:View{
     
     private var list : [Data] = [
-        Data(_title: "CollectionView")
-        ,Data(_title:"TableView"),
-        Data(_title:"JSonParsing"),
-        Data(_title:"JSonParsing"),
-        Data(_title:"JSonParsing"),]
+        Data(_title: .CollectionView),Data(_title:.TableView),
+        Data(_title:.JSonParsing),
+        Data(_title:.Tabbed_View),
+        Data(_title:.SearchBarView)]
     
     var body: some View{
         
@@ -54,25 +43,20 @@ struct DataList:View{
                         
                         HStack{
                             NavigationLink(destination: gotoSpecificView(_title: d._title)) {
-                                Text(d._title)
+                                Text(d._title.rawValue)
                                     .fontWeight(.bold)
                                     .padding(10)
                                 Spacer()
                             }
-                            
                         }
-                        
                     }
-                    
                 }
                 .frame(width: geo.size.width)
-                
             }
         }
     }
     
 }
-
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
@@ -81,15 +65,31 @@ struct ContentView_Previews: PreviewProvider {
 }
 
 struct gotoSpecificView: View {
-    var _title:String
+    
+    var _title:DatType
     
     var body: some View{
-        if _title == "CollectionView"{
-            SwiftUICollectionView(_title: _title)
-        }else if _title == "TableView"{
-            
-        }else if _title == "JSonParsing"{
-            SwiftUIJSonView(_title: _title)
+        
+        switch _title {
+            case .CollectionView:
+                SwiftUICollectionView(_title: _title.rawValue);
+            case .TableView:
+                EmptyView();
+            case .JSonParsing:
+                SwiftUIJSonView(_title: _title.rawValue)
+            case .Tabbed_View:
+                SwiftUIBottomTabView(_title: _title.rawValue)
+            case .SearchBarView:
+                SwiftUISearchBarView()
         }
+
     }
+}
+
+enum DatType:String{
+    case CollectionView
+    case TableView
+    case JSonParsing
+    case Tabbed_View = "Tabbed View"
+    case SearchBarView = "SearchBarView"
 }

@@ -12,22 +12,77 @@
 		2226B54E288AF50D00486D33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2226B54D288AF50D00486D33 /* Assets.xcassets */; };
 		2226B551288AF50D00486D33 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2226B550288AF50D00486D33 /* Preview Assets.xcassets */; };
 		223BCBB0288E87A800F4F8F8 /* SwiftUICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223BCBAF288E87A800F4F8F8 /* SwiftUICollectionView.swift */; };
+		2263F916288FF4F100837231 /* DummyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2263F915288FF4F100837231 /* DummyData.swift */; };
+		2263F919288FF6C500837231 /* Theme.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2263F918288FF6C500837231 /* Theme.xcassets */; };
+		2263F92E288FF7EF00837231 /* Raleway-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2263F91C288FF7EF00837231 /* Raleway-BoldItalic.ttf */; };
+		2263F92F288FF7EF00837231 /* Raleway-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2263F91D288FF7EF00837231 /* Raleway-MediumItalic.ttf */; };
+		2263F930288FF7EF00837231 /* Raleway-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2263F91E288FF7EF00837231 /* Raleway-ThinItalic.ttf */; };
+		2263F931288FF7EF00837231 /* Raleway-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2263F91F288FF7EF00837231 /* Raleway-ExtraLight.ttf */; };
+		2263F932288FF7EF00837231 /* Raleway-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2263F920288FF7EF00837231 /* Raleway-Medium.ttf */; };
+		2263F933288FF7EF00837231 /* Raleway-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2263F921288FF7EF00837231 /* Raleway-SemiBold.ttf */; };
+		2263F934288FF7EF00837231 /* Raleway-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2263F922288FF7EF00837231 /* Raleway-ExtraBold.ttf */; };
+		2263F935288FF7EF00837231 /* Raleway-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2263F923288FF7EF00837231 /* Raleway-ExtraBoldItalic.ttf */; };
+		2263F936288FF7EF00837231 /* Raleway-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2263F924288FF7EF00837231 /* Raleway-Regular.ttf */; };
+		2263F937288FF7EF00837231 /* Raleway-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2263F925288FF7EF00837231 /* Raleway-ExtraLightItalic.ttf */; };
+		2263F938288FF7EF00837231 /* Raleway-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2263F926288FF7EF00837231 /* Raleway-SemiBoldItalic.ttf */; };
+		2263F939288FF7EF00837231 /* Raleway-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2263F927288FF7EF00837231 /* Raleway-Light.ttf */; };
+		2263F93A288FF7EF00837231 /* Raleway-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2263F928288FF7EF00837231 /* Raleway-Black.ttf */; };
+		2263F93B288FF7EF00837231 /* Raleway-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2263F929288FF7EF00837231 /* Raleway-BlackItalic.ttf */; };
+		2263F93C288FF7EF00837231 /* Raleway-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2263F92A288FF7EF00837231 /* Raleway-LightItalic.ttf */; };
+		2263F93D288FF7EF00837231 /* Raleway-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2263F92B288FF7EF00837231 /* Raleway-Thin.ttf */; };
+		2263F93E288FF7EF00837231 /* Raleway-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2263F92C288FF7EF00837231 /* Raleway-Italic.ttf */; };
+		2263F93F288FF7EF00837231 /* Raleway-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2263F92D288FF7EF00837231 /* Raleway-Bold.ttf */; };
+		2280AC7E288FE60D00E288B1 /* SwiftUIHomeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2280AC7D288FE60D00E288B1 /* SwiftUIHomeTabView.swift */; };
+		2280AC82288FE63F00E288B1 /* SwiftUIShareTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2280AC81288FE63F00E288B1 /* SwiftUIShareTabView.swift */; };
+		2280AC84288FE65500E288B1 /* SwiftUINewsTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2280AC83288FE65500E288B1 /* SwiftUINewsTabView.swift */; };
 		22A8F052288ECE33005A7790 /* SwiftUIJSonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A8F051288ECE33005A7790 /* SwiftUIJSonView.swift */; };
 		22A8F055288ED833005A7790 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A8F054288ED833005A7790 /* SwiftUIView.swift */; };
+		22A8F058288EEEAD005A7790 /* SwiftUIBottomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A8F057288EEEAD005A7790 /* SwiftUIBottomTabView.swift */; };
+		22F208432890299500D9DBDF /* SwiftUITopBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F208422890299500D9DBDF /* SwiftUITopBarView.swift */; };
+		22F208462890340400D9DBDF /* SwiftUISearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F208452890340400D9DBDF /* SwiftUISearchBarView.swift */; };
 		250FBC7923C692537D20A585 /* Pods_SwitUIDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05ABC625157E28BBFE9659DD /* Pods_SwitUIDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		05ABC625157E28BBFE9659DD /* Pods_SwitUIDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwitUIDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20A0FB64A72430F306A17A83 /* Pods-SwitUIDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwitUIDemo.debug.xcconfig"; path = "Target Support Files/Pods-SwitUIDemo/Pods-SwitUIDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		2226B546288AF50900486D33 /* SwitUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwitUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2226B549288AF50900486D33 /* SwitUIDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitUIDemoApp.swift; sourceTree = "<group>"; };
 		2226B54B288AF50900486D33 /* Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text.swift; sourceTree = "<group>"; };
 		2226B54D288AF50D00486D33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2226B550288AF50D00486D33 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		223BCBAF288E87A800F4F8F8 /* SwiftUICollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICollectionView.swift; sourceTree = "<group>"; };
+		2263F915288FF4F100837231 /* DummyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyData.swift; sourceTree = "<group>"; };
+		2263F918288FF6C500837231 /* Theme.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Theme.xcassets; sourceTree = "<group>"; };
+		2263F91A288FF76400837231 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2263F91C288FF7EF00837231 /* Raleway-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-BoldItalic.ttf"; sourceTree = "<group>"; };
+		2263F91D288FF7EF00837231 /* Raleway-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-MediumItalic.ttf"; sourceTree = "<group>"; };
+		2263F91E288FF7EF00837231 /* Raleway-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-ThinItalic.ttf"; sourceTree = "<group>"; };
+		2263F91F288FF7EF00837231 /* Raleway-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-ExtraLight.ttf"; sourceTree = "<group>"; };
+		2263F920288FF7EF00837231 /* Raleway-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Medium.ttf"; sourceTree = "<group>"; };
+		2263F921288FF7EF00837231 /* Raleway-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-SemiBold.ttf"; sourceTree = "<group>"; };
+		2263F922288FF7EF00837231 /* Raleway-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-ExtraBold.ttf"; sourceTree = "<group>"; };
+		2263F923288FF7EF00837231 /* Raleway-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		2263F924288FF7EF00837231 /* Raleway-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Regular.ttf"; sourceTree = "<group>"; };
+		2263F925288FF7EF00837231 /* Raleway-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		2263F926288FF7EF00837231 /* Raleway-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		2263F927288FF7EF00837231 /* Raleway-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Light.ttf"; sourceTree = "<group>"; };
+		2263F928288FF7EF00837231 /* Raleway-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Black.ttf"; sourceTree = "<group>"; };
+		2263F929288FF7EF00837231 /* Raleway-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-BlackItalic.ttf"; sourceTree = "<group>"; };
+		2263F92A288FF7EF00837231 /* Raleway-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-LightItalic.ttf"; sourceTree = "<group>"; };
+		2263F92B288FF7EF00837231 /* Raleway-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Thin.ttf"; sourceTree = "<group>"; };
+		2263F92C288FF7EF00837231 /* Raleway-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Italic.ttf"; sourceTree = "<group>"; };
+		2263F92D288FF7EF00837231 /* Raleway-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Bold.ttf"; sourceTree = "<group>"; };
+		2280AC7D288FE60D00E288B1 /* SwiftUIHomeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIHomeTabView.swift; sourceTree = "<group>"; };
+		2280AC81288FE63F00E288B1 /* SwiftUIShareTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIShareTabView.swift; sourceTree = "<group>"; };
+		2280AC83288FE65500E288B1 /* SwiftUINewsTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUINewsTabView.swift; sourceTree = "<group>"; };
 		22A8F051288ECE33005A7790 /* SwiftUIJSonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIJSonView.swift; sourceTree = "<group>"; };
 		22A8F054288ED833005A7790 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		22A8F057288EEEAD005A7790 /* SwiftUIBottomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBottomTabView.swift; sourceTree = "<group>"; };
+		22F208422890299500D9DBDF /* SwiftUITopBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITopBarView.swift; sourceTree = "<group>"; };
+		22F208452890340400D9DBDF /* SwiftUISearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUISearchBarView.swift; sourceTree = "<group>"; };
 		3184E3FFB8CE08BF15F2B5B4 /* Pods-SwitUIDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwitUIDemo.debug.xcconfig"; path = "Target Support Files/Pods-SwitUIDemo/Pods-SwitUIDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		4899D028313CB9E4C80175BC /* Pods-SwitUIDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwitUIDemo.release.xcconfig"; path = "Target Support Files/Pods-SwitUIDemo/Pods-SwitUIDemo.release.xcconfig"; sourceTree = "<group>"; };
 		990613FE5511875553E7D3C6 /* Pods-SwitUIDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwitUIDemo.release.xcconfig"; path = "Target Support Files/Pods-SwitUIDemo/Pods-SwitUIDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,8 +111,8 @@
 			children = (
 				2226B548288AF50900486D33 /* SwitUIDemo */,
 				2226B547288AF50900486D33 /* Products */,
-				64B17073E3FF8F6AA1DC7EC7 /* Pods */,
 				0D41C010902BA8197C0DEE80 /* Frameworks */,
+				5862A0D2A519980C676A6875 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,11 +127,16 @@
 		2226B548288AF50900486D33 /* SwitUIDemo */ = {
 			isa = PBXGroup;
 			children = (
+				2263F914288FF4E200837231 /* DummyData */,
+				22F20844289033EB00D9DBDF /* SearchBar */,
+				22F208412890297900D9DBDF /* TopBar */,
+				2263F91A288FF76400837231 /* Info.plist */,
+				2263F917288FF6B500837231 /* Assets */,
+				22A8F056288EEE8F005A7790 /* TabbedViewSwiftUI */,
 				22A8F04D288ECCE4005A7790 /* Json Parsing */,
 				223BCBAE288E878A00F4F8F8 /* CollectionView */,
 				2226B549288AF50900486D33 /* SwitUIDemoApp.swift */,
 				2226B54B288AF50900486D33 /* Text.swift */,
-				2226B54D288AF50D00486D33 /* Assets.xcassets */,
 				2226B54F288AF50D00486D33 /* Preview Content */,
 			);
 			path = SwitUIDemo;
@@ -98,6 +158,59 @@
 			path = CollectionView;
 			sourceTree = "<group>";
 		};
+		2263F914288FF4E200837231 /* DummyData */ = {
+			isa = PBXGroup;
+			children = (
+				2263F915288FF4F100837231 /* DummyData.swift */,
+			);
+			path = DummyData;
+			sourceTree = "<group>";
+		};
+		2263F917288FF6B500837231 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				2263F91B288FF7EF00837231 /* Font */,
+				2263F918288FF6C500837231 /* Theme.xcassets */,
+				2226B54D288AF50D00486D33 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		2263F91B288FF7EF00837231 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				2263F91C288FF7EF00837231 /* Raleway-BoldItalic.ttf */,
+				2263F91D288FF7EF00837231 /* Raleway-MediumItalic.ttf */,
+				2263F91E288FF7EF00837231 /* Raleway-ThinItalic.ttf */,
+				2263F91F288FF7EF00837231 /* Raleway-ExtraLight.ttf */,
+				2263F920288FF7EF00837231 /* Raleway-Medium.ttf */,
+				2263F921288FF7EF00837231 /* Raleway-SemiBold.ttf */,
+				2263F922288FF7EF00837231 /* Raleway-ExtraBold.ttf */,
+				2263F923288FF7EF00837231 /* Raleway-ExtraBoldItalic.ttf */,
+				2263F924288FF7EF00837231 /* Raleway-Regular.ttf */,
+				2263F925288FF7EF00837231 /* Raleway-ExtraLightItalic.ttf */,
+				2263F926288FF7EF00837231 /* Raleway-SemiBoldItalic.ttf */,
+				2263F927288FF7EF00837231 /* Raleway-Light.ttf */,
+				2263F928288FF7EF00837231 /* Raleway-Black.ttf */,
+				2263F929288FF7EF00837231 /* Raleway-BlackItalic.ttf */,
+				2263F92A288FF7EF00837231 /* Raleway-LightItalic.ttf */,
+				2263F92B288FF7EF00837231 /* Raleway-Thin.ttf */,
+				2263F92C288FF7EF00837231 /* Raleway-Italic.ttf */,
+				2263F92D288FF7EF00837231 /* Raleway-Bold.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		2280AC7C288FE5F200E288B1 /* TabView */ = {
+			isa = PBXGroup;
+			children = (
+				2280AC7D288FE60D00E288B1 /* SwiftUIHomeTabView.swift */,
+				2280AC81288FE63F00E288B1 /* SwiftUIShareTabView.swift */,
+				2280AC83288FE65500E288B1 /* SwiftUINewsTabView.swift */,
+			);
+			path = TabView;
+			sourceTree = "<group>";
+		};
 		22A8F04D288ECCE4005A7790 /* Json Parsing */ = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +226,41 @@
 				22A8F054288ED833005A7790 /* SwiftUIView.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		22A8F056288EEE8F005A7790 /* TabbedViewSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				64B17073E3FF8F6AA1DC7EC7 /* Pods */,
+				2280AC7C288FE5F200E288B1 /* TabView */,
+				22A8F057288EEEAD005A7790 /* SwiftUIBottomTabView.swift */,
+			);
+			path = TabbedViewSwiftUI;
+			sourceTree = "<group>";
+		};
+		22F208412890297900D9DBDF /* TopBar */ = {
+			isa = PBXGroup;
+			children = (
+				22F208422890299500D9DBDF /* SwiftUITopBarView.swift */,
+			);
+			path = TopBar;
+			sourceTree = "<group>";
+		};
+		22F20844289033EB00D9DBDF /* SearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				22F208452890340400D9DBDF /* SwiftUISearchBarView.swift */,
+			);
+			path = SearchBar;
+			sourceTree = "<group>";
+		};
+		5862A0D2A519980C676A6875 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				20A0FB64A72430F306A17A83 /* Pods-SwitUIDemo.debug.xcconfig */,
+				4899D028313CB9E4C80175BC /* Pods-SwitUIDemo.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		64B17073E3FF8F6AA1DC7EC7 /* Pods */ = {
@@ -142,8 +290,6 @@
 			dependencies = (
 			);
 			name = SwitUIDemo;
-			packageProductDependencies = (
-			);
 			productName = SwitUIDemo;
 			productReference = 2226B546288AF50900486D33 /* SwitUIDemo.app */;
 			productType = "com.apple.product-type.application";
@@ -172,8 +318,6 @@
 				Base,
 			);
 			mainGroup = 2226B53D288AF50900486D33;
-			packageReferences = (
-			);
 			productRefGroup = 2226B547288AF50900486D33 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -188,8 +332,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2263F933288FF7EF00837231 /* Raleway-SemiBold.ttf in Resources */,
+				2263F937288FF7EF00837231 /* Raleway-ExtraLightItalic.ttf in Resources */,
+				2263F935288FF7EF00837231 /* Raleway-ExtraBoldItalic.ttf in Resources */,
+				2263F919288FF6C500837231 /* Theme.xcassets in Resources */,
+				2263F932288FF7EF00837231 /* Raleway-Medium.ttf in Resources */,
+				2263F93D288FF7EF00837231 /* Raleway-Thin.ttf in Resources */,
+				2263F93E288FF7EF00837231 /* Raleway-Italic.ttf in Resources */,
+				2263F93F288FF7EF00837231 /* Raleway-Bold.ttf in Resources */,
+				2263F938288FF7EF00837231 /* Raleway-SemiBoldItalic.ttf in Resources */,
+				2263F939288FF7EF00837231 /* Raleway-Light.ttf in Resources */,
 				2226B551288AF50D00486D33 /* Preview Assets.xcassets in Resources */,
+				2263F92F288FF7EF00837231 /* Raleway-MediumItalic.ttf in Resources */,
 				2226B54E288AF50D00486D33 /* Assets.xcassets in Resources */,
+				2263F936288FF7EF00837231 /* Raleway-Regular.ttf in Resources */,
+				2263F93C288FF7EF00837231 /* Raleway-LightItalic.ttf in Resources */,
+				2263F934288FF7EF00837231 /* Raleway-ExtraBold.ttf in Resources */,
+				2263F93A288FF7EF00837231 /* Raleway-Black.ttf in Resources */,
+				2263F92E288FF7EF00837231 /* Raleway-BoldItalic.ttf in Resources */,
+				2263F931288FF7EF00837231 /* Raleway-ExtraLight.ttf in Resources */,
+				2263F930288FF7EF00837231 /* Raleway-ThinItalic.ttf in Resources */,
+				2263F93B288FF7EF00837231 /* Raleway-BlackItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,10 +406,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				22A8F052288ECE33005A7790 /* SwiftUIJSonView.swift in Sources */,
+				2280AC84288FE65500E288B1 /* SwiftUINewsTabView.swift in Sources */,
 				2226B54C288AF50900486D33 /* Text.swift in Sources */,
 				223BCBB0288E87A800F4F8F8 /* SwiftUICollectionView.swift in Sources */,
+				22A8F058288EEEAD005A7790 /* SwiftUIBottomTabView.swift in Sources */,
+				22F208432890299500D9DBDF /* SwiftUITopBarView.swift in Sources */,
+				2280AC82288FE63F00E288B1 /* SwiftUIShareTabView.swift in Sources */,
 				2226B54A288AF50900486D33 /* SwitUIDemoApp.swift in Sources */,
 				22A8F055288ED833005A7790 /* SwiftUIView.swift in Sources */,
+				2263F916288FF4F100837231 /* DummyData.swift in Sources */,
+				22F208462890340400D9DBDF /* SwiftUISearchBarView.swift in Sources */,
+				2280AC7E288FE60D00E288B1 /* SwiftUIHomeTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,6 +550,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SwitUIDemo/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwitUIDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -411,6 +582,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SwitUIDemo/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwitUIDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

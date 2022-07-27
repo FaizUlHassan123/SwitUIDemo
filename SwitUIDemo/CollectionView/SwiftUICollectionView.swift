@@ -52,6 +52,6 @@ struct grid : View{
 
 struct SwiftUICollectionView_Previews: PreviewProvider {
     static var previews: some View {
-        SwiftUICollectionView(_title: "Test")
+        SwiftUICollectionView(_title: "SwiftUICollectionView")
     }
 }

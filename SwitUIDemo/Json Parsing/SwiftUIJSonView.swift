@@ -24,7 +24,7 @@ struct SwiftUIJSonView: View {
 
 struct SwiftUIJSonView_Previews: PreviewProvider {
     static var previews: some View {
-        SwiftUIJSonView( _title: "")
+        SwiftUIJSonView( _title: "SwiftUIJSonView")
     }
 }
 
