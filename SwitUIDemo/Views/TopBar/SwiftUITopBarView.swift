@@ -10,7 +10,7 @@ import SwiftUI
 struct SwiftUITopBarView: View {
     
     
-    @State var slected_tab = 0
+    @State private var slected_tab = 0
     var body: some View {
         
         VStack{

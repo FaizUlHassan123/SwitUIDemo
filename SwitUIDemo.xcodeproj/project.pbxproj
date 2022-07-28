@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		220536C128917A210078587C /* SwiftUIContextMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220536C028917A210078587C /* SwiftUIContextMenuView.swift */; };
+		220536C428917F6D0078587C /* SwiftUIImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220536C328917F6D0078587C /* SwiftUIImagePickerView.swift */; };
 		2226B54A288AF50900486D33 /* SwitUIDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2226B549288AF50900486D33 /* SwitUIDemoApp.swift */; };
 		2226B54C288AF50900486D33 /* Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2226B54B288AF50900486D33 /* Text.swift */; };
 		2226B54E288AF50D00486D33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2226B54D288AF50D00486D33 /* Assets.xcassets */; };
@@ -40,12 +42,16 @@
 		22A8F058288EEEAD005A7790 /* SwiftUIBottomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A8F057288EEEAD005A7790 /* SwiftUIBottomTabView.swift */; };
 		22F208432890299500D9DBDF /* SwiftUITopBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F208422890299500D9DBDF /* SwiftUITopBarView.swift */; };
 		22F208462890340400D9DBDF /* SwiftUISearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F208452890340400D9DBDF /* SwiftUISearchBarView.swift */; };
+		22FDA7F42892947C0019CAA7 /* SwiftUIBubbleCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FDA7F32892947C0019CAA7 /* SwiftUIBubbleCellView.swift */; };
+		22FDA7F72892B0CB0019CAA7 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FDA7F62892B0CB0019CAA7 /* Message.swift */; };
 		250FBC7923C692537D20A585 /* Pods_SwitUIDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05ABC625157E28BBFE9659DD /* Pods_SwitUIDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		05ABC625157E28BBFE9659DD /* Pods_SwitUIDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwitUIDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		20A0FB64A72430F306A17A83 /* Pods-SwitUIDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwitUIDemo.debug.xcconfig"; path = "Target Support Files/Pods-SwitUIDemo/Pods-SwitUIDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		220536C028917A210078587C /* SwiftUIContextMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIContextMenuView.swift; sourceTree = "<group>"; };
+		220536C328917F6D0078587C /* SwiftUIImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIImagePickerView.swift; sourceTree = "<group>"; };
 		2226B546288AF50900486D33 /* SwitUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwitUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2226B549288AF50900486D33 /* SwitUIDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitUIDemoApp.swift; sourceTree = "<group>"; };
 		2226B54B288AF50900486D33 /* Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text.swift; sourceTree = "<group>"; };
@@ -81,6 +87,8 @@
 		22A8F057288EEEAD005A7790 /* SwiftUIBottomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBottomTabView.swift; sourceTree = "<group>"; };
 		22F208422890299500D9DBDF /* SwiftUITopBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITopBarView.swift; sourceTree = "<group>"; };
 		22F208452890340400D9DBDF /* SwiftUISearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUISearchBarView.swift; sourceTree = "<group>"; };
+		22FDA7F32892947C0019CAA7 /* SwiftUIBubbleCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBubbleCellView.swift; sourceTree = "<group>"; };
+		22FDA7F62892B0CB0019CAA7 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		3184E3FFB8CE08BF15F2B5B4 /* Pods-SwitUIDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwitUIDemo.debug.xcconfig"; path = "Target Support Files/Pods-SwitUIDemo/Pods-SwitUIDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		4899D028313CB9E4C80175BC /* Pods-SwitUIDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwitUIDemo.release.xcconfig"; path = "Target Support Files/Pods-SwitUIDemo/Pods-SwitUIDemo.release.xcconfig"; sourceTree = "<group>"; };
 		990613FE5511875553E7D3C6 /* Pods-SwitUIDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwitUIDemo.release.xcconfig"; path = "Target Support Files/Pods-SwitUIDemo/Pods-SwitUIDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -109,6 +117,8 @@
 		220536BE289179D60078587C /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				220536C228917F5C0078587C /* ImagePicker */,
+				220536BF28917A060078587C /* Context Menu */,
 				223BCBAE288E878A00F4F8F8 /* CollectionView */,
 				22A8F04D288ECCE4005A7790 /* Json Parsing */,
 				22A8F056288EEE8F005A7790 /* TabbedViewSwiftUI */,
@@ -116,6 +126,24 @@
 				22F20844289033EB00D9DBDF /* SearchBar */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		220536BF28917A060078587C /* Context Menu */ = {
+			isa = PBXGroup;
+			children = (
+				220536C028917A210078587C /* SwiftUIContextMenuView.swift */,
+			);
+			path = "Context Menu";
+			sourceTree = "<group>";
+		};
+		220536C228917F5C0078587C /* ImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				22FDA7F52892B0BB0019CAA7 /* Model */,
+				22FDA7F1289294630019CAA7 /* cell */,
+				220536C328917F6D0078587C /* SwiftUIImagePickerView.swift */,
+			);
+			path = ImagePicker;
 			sourceTree = "<group>";
 		};
 		2226B53D288AF50900486D33 = {
@@ -260,6 +288,22 @@
 				22F208452890340400D9DBDF /* SwiftUISearchBarView.swift */,
 			);
 			path = SearchBar;
+			sourceTree = "<group>";
+		};
+		22FDA7F1289294630019CAA7 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				22FDA7F32892947C0019CAA7 /* SwiftUIBubbleCellView.swift */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		22FDA7F52892B0BB0019CAA7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				22FDA7F62892B0CB0019CAA7 /* Message.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		5862A0D2A519980C676A6875 /* Pods */ = {
@@ -414,15 +458,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				22A8F052288ECE33005A7790 /* SwiftUIJSonView.swift in Sources */,
+				220536C128917A210078587C /* SwiftUIContextMenuView.swift in Sources */,
 				2280AC84288FE65500E288B1 /* SwiftUINewsTabView.swift in Sources */,
 				2226B54C288AF50900486D33 /* Text.swift in Sources */,
+				220536C428917F6D0078587C /* SwiftUIImagePickerView.swift in Sources */,
 				223BCBB0288E87A800F4F8F8 /* SwiftUICollectionView.swift in Sources */,
 				22A8F058288EEEAD005A7790 /* SwiftUIBottomTabView.swift in Sources */,
 				22F208432890299500D9DBDF /* SwiftUITopBarView.swift in Sources */,
 				2280AC82288FE63F00E288B1 /* SwiftUIShareTabView.swift in Sources */,
 				2226B54A288AF50900486D33 /* SwitUIDemoApp.swift in Sources */,
+				22FDA7F42892947C0019CAA7 /* SwiftUIBubbleCellView.swift in Sources */,
 				22A8F055288ED833005A7790 /* SwiftUIView.swift in Sources */,
 				2263F916288FF4F100837231 /* DummyData.swift in Sources */,
+				22FDA7F72892B0CB0019CAA7 /* Message.swift in Sources */,
 				22F208462890340400D9DBDF /* SwiftUISearchBarView.swift in Sources */,
 				2280AC7E288FE60D00E288B1 /* SwiftUIHomeTabView.swift in Sources */,
 			);

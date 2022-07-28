@@ -12,7 +12,7 @@ struct ContentView: View {
     var body: some View {
         
         NavigationView{
-            DataList()
+            DataListCellView()
                 .navigationTitle("Navigation")
             
         }
@@ -20,18 +20,21 @@ struct ContentView: View {
     }
 }
 
-struct Data  {
+struct DataList  {
     let id = UUID()
     let _title: DatType
 }
 
-struct DataList:View{
+struct DataListCellView:View{
     
-    private var list : [Data] = [
-        Data(_title: .CollectionView),Data(_title:.TableView),
-        Data(_title:.JSonParsing),
-        Data(_title:.Tabbed_View),
-        Data(_title:.SearchBarView)]
+    private var list : [DataList] = [
+        DataList(_title: .CollectionView),
+        DataList(_title:.TableView),
+        DataList(_title:.JSonParsing),
+        DataList(_title:.Tabbed_View),
+        DataList(_title:.SearchBarView),
+        DataList(_title: .ContextMenuView),
+        DataList(_title: .ImagePicker)]
     
     var body: some View{
         
@@ -81,6 +84,10 @@ struct gotoSpecificView: View {
                 SwiftUIBottomTabView(_title: _title.rawValue)
             case .SearchBarView:
                 SwiftUISearchBarView()
+            case .ContextMenuView:
+                SwiftUIContextMenuView(_title: _title.rawValue)
+            case .ImagePicker:
+                SwiftUIImagePickerView(_title: _title.rawValue)
         }
 
     }
@@ -91,5 +98,7 @@ enum DatType:String{
     case TableView
     case JSonParsing
     case Tabbed_View = "Tabbed View"
-    case SearchBarView = "SearchBarView"
+    case SearchBarView = "SearchBar"
+    case ContextMenuView = "ContextMenu"
+    case ImagePicker
 }

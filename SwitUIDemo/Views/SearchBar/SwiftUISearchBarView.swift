@@ -25,9 +25,10 @@ struct SearhView: View{
     
     @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
     
-    @State var show = false
-    @State var txt : String = ""
-    @State var data = SearchDummuyData.dData
+    //@State shouldn’t be shared with other views and that’s why Apple recommends you mark those properties as private
+    @State private var show = false
+    @State private var txt : String = ""
+    @State private var data = SearchDummuyData.dData
     
     var body : some View{
         
