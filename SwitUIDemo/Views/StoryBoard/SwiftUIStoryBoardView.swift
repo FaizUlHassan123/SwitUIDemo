@@ -23,7 +23,6 @@ struct SwiftUIStoryBoardView_Previews: PreviewProvider {
     }
 }
 
-
 struct CustomController : UIViewControllerRepresentable{
     
     func updateUIViewController(_ uiViewController: UIViewControllerType, context: Context) {

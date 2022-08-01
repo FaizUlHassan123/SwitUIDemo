@@ -64,7 +64,8 @@ struct ListType:View{
         DataList(_title: .Notification),
         DataList(_title: .CustomTabbar),
         DataList(_title: .StoryBoard),
-        DataList(_title: .SwiftUIImageDownloading)]
+        DataList(_title: .SwiftUIImageDownloading),
+        DataList(_title: .CustomButtonView)]
     
     var body: some View{
         
@@ -163,6 +164,8 @@ struct gotoSpecificView: View {
                 SwiftUIStoryBoardView(_title: _title.rawValue)
             case .SwiftUIImageDownloading:
                 SwiftUIImageDownloading(_title: _title.rawValue)
+            case .CustomButtonView:
+                SwiftUICustomButtonView(_title: _title.rawValue)
         }
         
     }
@@ -182,4 +185,5 @@ enum DatType:String{
     case CustomTabbar = "Custom Tab bar"
     case StoryBoard
     case SwiftUIImageDownloading = "UIImageDownloading"
+    case CustomButtonView = "Custom Button"
 }
