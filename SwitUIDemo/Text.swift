@@ -63,7 +63,8 @@ struct ListType:View{
         DataList(_title: .VideoPlayer),
         DataList(_title: .Notification),
         DataList(_title: .CustomTabbar),
-        DataList(_title: .StoryBoard)]
+        DataList(_title: .StoryBoard),
+        DataList(_title: .SwiftUIImageDownloading)]
     
     var body: some View{
         
