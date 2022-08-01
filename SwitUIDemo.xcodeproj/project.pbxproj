@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		220536C128917A210078587C /* SwiftUIContextMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220536C028917A210078587C /* SwiftUIContextMenuView.swift */; };
 		220536C428917F6D0078587C /* SwiftUIImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220536C328917F6D0078587C /* SwiftUIImagePickerView.swift */; };
+		222362A92897E1FD00EBCE2F /* SwiftUICustomTabbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222362A82897E1FD00EBCE2F /* SwiftUICustomTabbarView.swift */; };
+		222362AC2897F56400EBCE2F /* SwiftUIStoryBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222362AB2897F56400EBCE2F /* SwiftUIStoryBoardView.swift */; };
+		222362AE2897F5AD00EBCE2F /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 222362AD2897F5AD00EBCE2F /* Home.storyboard */; };
 		2226B54A288AF50900486D33 /* SwitUIDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2226B549288AF50900486D33 /* SwitUIDemoApp.swift */; };
 		2226B54C288AF50900486D33 /* Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2226B54B288AF50900486D33 /* Text.swift */; };
 		2226B54E288AF50D00486D33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2226B54D288AF50D00486D33 /* Assets.xcassets */; };
@@ -37,6 +40,9 @@
 		2280AC7E288FE60D00E288B1 /* SwiftUIHomeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2280AC7D288FE60D00E288B1 /* SwiftUIHomeTabView.swift */; };
 		2280AC82288FE63F00E288B1 /* SwiftUIShareTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2280AC81288FE63F00E288B1 /* SwiftUIShareTabView.swift */; };
 		2280AC84288FE65500E288B1 /* SwiftUINewsTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2280AC83288FE65500E288B1 /* SwiftUINewsTabView.swift */; };
+		2294CBF62897C8D300A03020 /* SwiftUIVidePlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2294CBF52897C8D300A03020 /* SwiftUIVidePlayerView.swift */; };
+		2294CBF92897D85200A03020 /* SwiftUINotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2294CBF82897D85200A03020 /* SwiftUINotificationView.swift */; };
+		2299ACD12898021F00425350 /* SwiftUIImageDownloading .swift in Sources */ = {isa = PBXBuildFile; fileRef = 2299ACD02898021F00425350 /* SwiftUIImageDownloading .swift */; };
 		22A8F052288ECE33005A7790 /* SwiftUIJSonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A8F051288ECE33005A7790 /* SwiftUIJSonView.swift */; };
 		22A8F055288ED833005A7790 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A8F054288ED833005A7790 /* SwiftUIView.swift */; };
 		22A8F058288EEEAD005A7790 /* SwiftUIBottomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A8F057288EEEAD005A7790 /* SwiftUIBottomTabView.swift */; };
@@ -52,6 +58,9 @@
 		20A0FB64A72430F306A17A83 /* Pods-SwitUIDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwitUIDemo.debug.xcconfig"; path = "Target Support Files/Pods-SwitUIDemo/Pods-SwitUIDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		220536C028917A210078587C /* SwiftUIContextMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIContextMenuView.swift; sourceTree = "<group>"; };
 		220536C328917F6D0078587C /* SwiftUIImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIImagePickerView.swift; sourceTree = "<group>"; };
+		222362A82897E1FD00EBCE2F /* SwiftUICustomTabbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICustomTabbarView.swift; sourceTree = "<group>"; };
+		222362AB2897F56400EBCE2F /* SwiftUIStoryBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIStoryBoardView.swift; sourceTree = "<group>"; };
+		222362AD2897F5AD00EBCE2F /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		2226B546288AF50900486D33 /* SwitUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwitUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2226B549288AF50900486D33 /* SwitUIDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitUIDemoApp.swift; sourceTree = "<group>"; };
 		2226B54B288AF50900486D33 /* Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text.swift; sourceTree = "<group>"; };
@@ -82,6 +91,10 @@
 		2280AC7D288FE60D00E288B1 /* SwiftUIHomeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIHomeTabView.swift; sourceTree = "<group>"; };
 		2280AC81288FE63F00E288B1 /* SwiftUIShareTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIShareTabView.swift; sourceTree = "<group>"; };
 		2280AC83288FE65500E288B1 /* SwiftUINewsTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUINewsTabView.swift; sourceTree = "<group>"; };
+		2294CBF52897C8D300A03020 /* SwiftUIVidePlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIVidePlayerView.swift; sourceTree = "<group>"; };
+		2294CBF82897D85200A03020 /* SwiftUINotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUINotificationView.swift; sourceTree = "<group>"; };
+		2294CBFA2897DC9100A03020 /* SwitUIDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwitUIDemo.entitlements; sourceTree = "<group>"; };
+		2299ACD02898021F00425350 /* SwiftUIImageDownloading .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwiftUIImageDownloading .swift"; sourceTree = "<group>"; };
 		22A8F051288ECE33005A7790 /* SwiftUIJSonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIJSonView.swift; sourceTree = "<group>"; };
 		22A8F054288ED833005A7790 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		22A8F057288EEEAD005A7790 /* SwiftUIBottomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBottomTabView.swift; sourceTree = "<group>"; };
@@ -117,6 +130,11 @@
 		220536BE289179D60078587C /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				2299ACCF2898020500425350 /* Image Downloading  */,
+				222362AA2897F53800EBCE2F /* StoryBoard */,
+				222362A72897E1EC00EBCE2F /* Custom Tabbar */,
+				2294CBF72897D83C00A03020 /* Notifications */,
+				2294CBF42897C8BE00A03020 /* Video Player */,
 				220536C228917F5C0078587C /* ImagePicker */,
 				220536BF28917A060078587C /* Context Menu */,
 				223BCBAE288E878A00F4F8F8 /* CollectionView */,
@@ -146,6 +164,23 @@
 			path = ImagePicker;
 			sourceTree = "<group>";
 		};
+		222362A72897E1EC00EBCE2F /* Custom Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				222362A82897E1FD00EBCE2F /* SwiftUICustomTabbarView.swift */,
+			);
+			path = "Custom Tabbar";
+			sourceTree = "<group>";
+		};
+		222362AA2897F53800EBCE2F /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				222362AB2897F56400EBCE2F /* SwiftUIStoryBoardView.swift */,
+				222362AD2897F5AD00EBCE2F /* Home.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
 		2226B53D288AF50900486D33 = {
 			isa = PBXGroup;
 			children = (
@@ -167,6 +202,7 @@
 		2226B548288AF50900486D33 /* SwitUIDemo */ = {
 			isa = PBXGroup;
 			children = (
+				2294CBFA2897DC9100A03020 /* SwitUIDemo.entitlements */,
 				2263F914288FF4E200837231 /* DummyData */,
 				220536BE289179D60078587C /* Views */,
 				2263F917288FF6B500837231 /* Assets */,
@@ -245,6 +281,30 @@
 				2280AC83288FE65500E288B1 /* SwiftUINewsTabView.swift */,
 			);
 			path = TabView;
+			sourceTree = "<group>";
+		};
+		2294CBF42897C8BE00A03020 /* Video Player */ = {
+			isa = PBXGroup;
+			children = (
+				2294CBF52897C8D300A03020 /* SwiftUIVidePlayerView.swift */,
+			);
+			path = "Video Player";
+			sourceTree = "<group>";
+		};
+		2294CBF72897D83C00A03020 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				2294CBF82897D85200A03020 /* SwiftUINotificationView.swift */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		2299ACCF2898020500425350 /* Image Downloading  */ = {
+			isa = PBXGroup;
+			children = (
+				2299ACD02898021F00425350 /* SwiftUIImageDownloading .swift */,
+			);
+			path = "Image Downloading ";
 			sourceTree = "<group>";
 		};
 		22A8F04D288ECCE4005A7790 /* Json Parsing */ = {
@@ -336,6 +396,7 @@
 				2226B543288AF50900486D33 /* Frameworks */,
 				2226B544288AF50900486D33 /* Resources */,
 				A4FD40B271B7C87A33BAF88B /* [CP] Embed Pods Frameworks */,
+				1F9D4876A5A1192998585250 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -385,6 +446,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2263F933288FF7EF00837231 /* Raleway-SemiBold.ttf in Resources */,
+				222362AE2897F5AD00EBCE2F /* Home.storyboard in Resources */,
 				2263F937288FF7EF00837231 /* Raleway-ExtraLightItalic.ttf in Resources */,
 				2263F935288FF7EF00837231 /* Raleway-ExtraBoldItalic.ttf in Resources */,
 				2263F919288FF6C500837231 /* Theme.xcassets in Resources */,
@@ -411,6 +473,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		1F9D4876A5A1192998585250 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwitUIDemo/Pods-SwitUIDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwitUIDemo/Pods-SwitUIDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwitUIDemo/Pods-SwitUIDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		2F628AEBC2758372C4FA6A9E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -460,17 +539,22 @@
 				22A8F052288ECE33005A7790 /* SwiftUIJSonView.swift in Sources */,
 				220536C128917A210078587C /* SwiftUIContextMenuView.swift in Sources */,
 				2280AC84288FE65500E288B1 /* SwiftUINewsTabView.swift in Sources */,
+				222362A92897E1FD00EBCE2F /* SwiftUICustomTabbarView.swift in Sources */,
 				2226B54C288AF50900486D33 /* Text.swift in Sources */,
 				220536C428917F6D0078587C /* SwiftUIImagePickerView.swift in Sources */,
+				2294CBF92897D85200A03020 /* SwiftUINotificationView.swift in Sources */,
 				223BCBB0288E87A800F4F8F8 /* SwiftUICollectionView.swift in Sources */,
 				22A8F058288EEEAD005A7790 /* SwiftUIBottomTabView.swift in Sources */,
 				22F208432890299500D9DBDF /* SwiftUITopBarView.swift in Sources */,
 				2280AC82288FE63F00E288B1 /* SwiftUIShareTabView.swift in Sources */,
 				2226B54A288AF50900486D33 /* SwitUIDemoApp.swift in Sources */,
+				2299ACD12898021F00425350 /* SwiftUIImageDownloading .swift in Sources */,
 				22FDA7F42892947C0019CAA7 /* SwiftUIBubbleCellView.swift in Sources */,
 				22A8F055288ED833005A7790 /* SwiftUIView.swift in Sources */,
 				2263F916288FF4F100837231 /* DummyData.swift in Sources */,
 				22FDA7F72892B0CB0019CAA7 /* Message.swift in Sources */,
+				2294CBF62897C8D300A03020 /* SwiftUIVidePlayerView.swift in Sources */,
+				222362AC2897F56400EBCE2F /* SwiftUIStoryBoardView.swift in Sources */,
 				22F208462890340400D9DBDF /* SwiftUISearchBarView.swift in Sources */,
 				2280AC7E288FE60D00E288B1 /* SwiftUIHomeTabView.swift in Sources */,
 			);
@@ -601,6 +685,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SwitUIDemo/SwitUIDemo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwitUIDemo/Preview Content\"";
@@ -633,6 +718,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SwitUIDemo/SwitUIDemo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwitUIDemo/Preview Content\"";

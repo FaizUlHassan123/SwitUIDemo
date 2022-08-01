@@ -9,8 +9,8 @@ import SwiftUI
 
 struct SwiftUITopBarView: View {
     
-    
     @State private var slected_tab = 0
+    
     var body: some View {
         
         VStack{

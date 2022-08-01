@@ -36,7 +36,7 @@ struct SwiftUIImagePickerView: View {
                             .font(.system(size: 22))
                             .foregroundColor(.white)
                     }
-                    
+                        
                     Spacer()
                     
                     Button {} label: {
@@ -136,6 +136,7 @@ struct SwiftUIImagePickerView: View {
 //        .padding(.top,-50)
 //        .navigationTitle(_title)
         .navigationBarHidden(true)
+        
         //Full Screen image Picker
         .fullScreenCover(isPresented: self.$imagePicker, onDismiss: {
             //when ever imae picker is closed

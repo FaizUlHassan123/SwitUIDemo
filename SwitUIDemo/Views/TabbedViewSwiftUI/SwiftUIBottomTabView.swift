@@ -14,6 +14,7 @@ struct SwiftUIBottomTabView: View {
     var body: some View {
         
         TabView{
+            
             SwiftUIHomeTabView().tabItem {
                 VStack{
                     Image(systemName: "house.fill")

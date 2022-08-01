@@ -8,6 +8,13 @@
 import Foundation
 import UIKit
 
+
+struct DataList  {
+    let id = UUID()
+    let _title: DatType
+}
+
+
 class HomeDummuyData : NSObject{
     
     static var home_Data:[home] = [
