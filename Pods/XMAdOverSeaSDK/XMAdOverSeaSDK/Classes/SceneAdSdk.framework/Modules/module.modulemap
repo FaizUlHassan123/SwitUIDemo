@@ -1,0 +1,6 @@
+framework module SceneAdSdk {
+  umbrella header "SceneAdSdk.h"
+
+  export *
+  module * { export * }
+}
