@@ -7,20 +7,20 @@
 
 import SwiftUI
 
-
 struct ContentView: View {
     var body: some View {
         
         NavigationView{
-            DataListCellView()
+            DataPickerView()
                 .navigationTitle("Navigation")
             
         }
         .foregroundColor(Color.green)
+        
     }
 }
 
-struct DataListCellView:View{
+struct DataPickerView:View{
     
     @State private var slected_tab = 0
     
@@ -34,7 +34,9 @@ struct DataListCellView:View{
                 
             } label: {
                 Text("")
-            }.pickerStyle(.segmented)
+            }
+            .pickerStyle(.segmented)
+            
             ListType(selected: $slected_tab)
         }
         
@@ -79,15 +81,21 @@ struct ListType:View{
                     ForEach (list, id: \.id){ d in
                         
                         HStack{
-                            NavigationLink(destination: gotoSpecificView(_title: d._title)) {
+                            //LazyView because if we added view directly then its initialize view without click and occupy memory watch Video
+                            //https://youtu.be/q5YK4tYMXPc
+                            NavigationLink(destination: LazyView(view: {
+                                gotoSpecificView(_title: d._title)
+                            })) {
                                 Text(d._title.rawValue)
                                     .fontWeight(.bold)
                                     .font(.system(size: 17))
                                     .padding(8)
                                     .lineLimit(2)
                                 Spacer()
+                                let _ = print("hi! \(d._title.rawValue)")
                             }
                         }
+                        
                     }
                     .onDelete { index in
                         self.list.remove(atOffsets: index)
@@ -102,19 +110,23 @@ struct ListType:View{
             }else{
                 
                 ScrollView(.vertical, showsIndicators: true) {
-                    VStack(alignment: .leading){
-                        
+                    
+                    LazyVStack(alignment: .trailing){
                         
                         ForEach (list, id: \.id){ d in
                             
                             HStack{
-                                NavigationLink(destination: gotoSpecificView(_title: d._title)) {
+                                NavigationLink(destination: LazyView(view: {
+                                    gotoSpecificView(_title: d._title)
+                                })) {
                                     Text(d._title.rawValue)
                                         .fontWeight(.bold)
                                         .padding(10)
                                     Spacer()
                                 }
+                                let _ = print("List \(d._title.rawValue)")
                             }
+                            
                         }
                         .onDelete { index in
                             self.list.remove(atOffsets: index)
@@ -134,6 +146,11 @@ struct ListType:View{
 
 
 struct gotoSpecificView: View {
+    
+    init(_title:DatType){
+        self._title = _title
+        print("gotoSpecificView initiaLize")
+    }
     
     var _title:DatType
     

@@ -17,6 +17,8 @@ struct SwiftUIJSonView: View {
             
             List(getData.jsonDat){ i in
                 listRow(url: i.avatar_url, name: i.login)
+                let _ = print("hi! \(i.login)")
+
             }
             .navigationTitle(_title)
     }

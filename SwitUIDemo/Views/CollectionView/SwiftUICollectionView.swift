@@ -9,6 +9,10 @@ import SwiftUI
 
 struct SwiftUICollectionView: View {
     
+    init(_title:String){
+        self._title = _title
+        print("SwiftUICollectionView initiaLize")
+    }
     var _title:String
     
     var body: some View {
@@ -36,7 +40,7 @@ struct grid : View{
                             Image(uiImage: images[i])
                                 .resizable()
                                 .frame(width: geo.size.width / 2 - 16)
-                                
+                            
                         }
                         .padding(.horizontal,12)
                         .frame(height: UIDevice.current.orientation.isLandscape ? 300 : 150)
